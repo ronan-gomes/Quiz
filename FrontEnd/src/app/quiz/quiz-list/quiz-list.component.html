@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="container-table">
+  <div class="container-table" *ngIf="quizzes; else spinner">
     <table class="table">
       <thead>
         <tr>
@@ -8,128 +8,8 @@
         </tr>
       </thead>
       <tbody class="table-group-divider">
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
-          <td>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
-              <button type="button" class="btn btn-secondary bi bi-pencil-fill"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
-            </div>
-          </td>
-        </tr>
-        <tr class="align-middle">
-          <td>Mark</td>
+        <tr class="align-middle" *ngFor="let quiz of quizzes">
+          <td>{{ quiz.name }}</td>
           <td>
             <div class="btn-group me-2" role="group" aria-label="Second group">
               <button type="button" class="btn btn-dark bi bi-play-fill"></button>
@@ -141,4 +21,9 @@
       </tbody>
     </table>
   </div>
+  <ng-template #spinner>
+    <div class="spinner-border text-secondary" role="status"></div>
+  </ng-template>
+  <div ng-show="!quizzes.length" id="quizvazio">Você ainda não criou nenhum quiz.</div>
 </div>
+<button type="button" class="btn btn-dark">Criar quiz</button>

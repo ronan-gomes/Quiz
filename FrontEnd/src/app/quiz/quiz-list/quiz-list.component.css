@@ -14,3 +14,7 @@ td{
   overflow-y: auto;
   margin: 20px 20px;
 }
+
+#quizvazio{
+  display: none;
+}

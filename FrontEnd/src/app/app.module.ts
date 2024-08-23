@@ -8,19 +8,24 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { QuizInfoComponent } from './quiz/quiz-info/quiz-info.component';
 import { BtnHomeComponent } from './components/btn-home/btn-home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common'
+import { QuizListComponent } from './quiz/quiz-list/quiz-list.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     QuizInfoComponent,
-    BtnHomeComponent
+    BtnHomeComponent,
+    QuizListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
