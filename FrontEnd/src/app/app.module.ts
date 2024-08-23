@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { QuizInfoComponent } from './quiz/quiz-info/quiz-info.component';
 import { BtnHomeComponent } from './components/btn-home/btn-home.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BtnHomeComponent } from './components/btn-home/btn-home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
