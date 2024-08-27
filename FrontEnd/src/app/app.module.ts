@@ -10,6 +10,8 @@ import { BtnHomeComponent } from './components/btn-home/btn-home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common'
 import { QuizListComponent } from './quiz/quiz-list/quiz-list.component';
+import { QuizFormComponent } from './quiz/quiz-form/quiz-form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -18,14 +20,17 @@ import { QuizListComponent } from './quiz/quiz-list/quiz-list.component';
     HomeComponent,
     QuizInfoComponent,
     BtnHomeComponent,
-    QuizListComponent
+    QuizListComponent,
+    QuizFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,125 +1,128 @@
-
 {
-    "quizzes": [
-      {
-        "id": 1,
-        "name": "Conhecimentos gerais",
-        "numQuestions": 10,
-        "questions": [
-          {
-            "question": "De quem é a famosa frase “Penso, logo existo”?",
-            "res1": "Descartes",
-            "res2": "Galileu Galilei",
-            "res3": "Platão",
-            "res4": "Sócrates"
-          },
-          {
-            "question": "Quais o menor e o maior país do mundo?",
-            "res1": "Vaticano e Rússia",
-            "res2": "Nauru e China",
-            "res3": "Mônaco e Canadá",
-            "res4": "Malta e Estados Unidos"
-          },
-          {
-            "question": "Qual o nome do presidente do Brasil que ficou conhecido como Jango?",
-            "res1": "João Goulart",
-            "res2": "Jânio Quadros",
-            "res3": "Getúlio Vargas",
-            "res4": "Jacinto Anjos"
-          },
-          {
-            "question": "Quais as duas datas que são comemoradas em novembro?",
-            "res1": " Proclamação da República e Dia Nacional da Consciência Negra",
-            "res2": " Independência do Brasil e Dia da Bandeira",
-            "res3": "Dia de Finados e Dia Nacional do Livro",
-            "res4": " Black Friday e Dia da Árvore"
-          },
-          {
-            "question": " Em que ordem surgiram os modelos atômicos?",
-            "res1": "Dalton, Thomson, Rutherford, Rutherford-Bohr",
-            "res2": "Dalton, Thomson, Rutherford-Bohr, Rutherford",
-            "res3": "Thomson, Dalton, Rutherford, Rutherford-Bohr",
-            "res4": "Rutherford-Bohr, Rutherford, Thomson, Dalton"
-          },
-          {
-            "question": "Qual a montanha mais alta do Brasil?",
-            "res1": "Pico da Neblina",
-            "res2": "Pico da Bandeira",
-            "res3": " Pico Maior de Friburgo",
-            "res4": "Monte Roraima"
-          },
-          {
-            "question": "Que país tem o formato de uma bota?",
-            "res1": "Itália",
-            "res2": "Butão",
-            "res3": "Portugal",
-            "res4": "México"
-          },
-          {
-            "question": "Quantos ossos temos no nosso corpo?",
-            "res1": "206",
-            "res2": "126",
-            "res3": "200",
-            "res4": ""
-          },
-          {
-            "question": "O que é maior: gigabyte ou megabyte?",
-            "res1": "gigabyte ",
-            "res2": "megabyte",
-            "res3": null,
-            "res4": null
-          },
-          {
-            "question": "Quem escreveu Os Lusíadas?",
-            "res1": "Luís Vaz de Camões",
-            "res2": " Carlos Drummond de Andrade",
-            "res3": "Fernando Pessoa",
-            "res4": "Almeida Garrett"
-          }
-        ]
-      },
-      {
-        "name": "nome do quiz",
-        "numQuestions": 5,
-        "questions": [
-          {
-            "question": "ax",
-            "res1": "cads",
-            "res2": "sac",
-            "res3": null,
-            "res4": null
-          },
-          {
-            "question": "efw",
-            "res1": "ewf",
-            "res2": "yj",
-            "res3": "th",
-            "res4": null
-          },
-          {
-            "question": "htr",
-            "res1": "v",
-            "res2": "f",
-            "res3": null,
-            "res4": null
-          },
-          {
-            "question": "3r5yth",
-            "res1": "efw",
-            "res2": "fe",
-            "res3": null,
-            "res4": "efw"
-          },
-          {
-            "question": "ddd",
-            "res1": "ddd",
-            "res2": "ss",
-            "res3": null,
-            "res4": null
-          }
-        ],
-        "id": 2
-      }
-    ]
-  }
-  
+  "quizzes": [
+    {
+      "id": "1",
+      "name": "Conhecimentos gerais",
+      "numQuestions": 10,
+      "questions": [
+        {
+          "question": "De quem é a famosa frase “Penso, logo existo”?",
+          "res1": "Descartes",
+          "res2": "Galileu Galilei",
+          "res3": "Platão",
+          "res4": "Sócrates"
+        },
+        {
+          "question": "Quais o menor e o maior país do mundo?",
+          "res1": "Vaticano e Rússia",
+          "res2": "Nauru e China",
+          "res3": "Mônaco e Canadá",
+          "res4": "Malta e Estados Unidos"
+        },
+        {
+          "question": "Qual o nome do presidente do Brasil que ficou conhecido como Jango?",
+          "res1": "João Goulart",
+          "res2": "Jânio Quadros",
+          "res3": "Getúlio Vargas",
+          "res4": "Jacinto Anjos"
+        },
+        {
+          "question": "Quais as duas datas que são comemoradas em novembro?",
+          "res1": " Proclamação da República e Dia Nacional da Consciência Negra",
+          "res2": " Independência do Brasil e Dia da Bandeira",
+          "res3": "Dia de Finados e Dia Nacional do Livro",
+          "res4": " Black Friday e Dia da Árvore"
+        },
+        {
+          "question": " Em que ordem surgiram os modelos atômicos?",
+          "res1": "Dalton, Thomson, Rutherford, Rutherford-Bohr",
+          "res2": "Dalton, Thomson, Rutherford-Bohr, Rutherford",
+          "res3": "Thomson, Dalton, Rutherford, Rutherford-Bohr",
+          "res4": "Rutherford-Bohr, Rutherford, Thomson, Dalton"
+        },
+        {
+          "question": "Qual a montanha mais alta do Brasil?",
+          "res1": "Pico da Neblina",
+          "res2": "Pico da Bandeira",
+          "res3": " Pico Maior de Friburgo",
+          "res4": "Monte Roraima"
+        },
+        {
+          "question": "Que país tem o formato de uma bota?",
+          "res1": "Itália",
+          "res2": "Butão",
+          "res3": "Portugal",
+          "res4": "México"
+        },
+        {
+          "question": "Quantos ossos temos no nosso corpo?",
+          "res1": "206",
+          "res2": "126",
+          "res3": "200",
+          "res4": ""
+        },
+        {
+          "question": "O que é maior: gigabyte ou megabyte?",
+          "res1": "gigabyte ",
+          "res2": "megabyte",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "question": "Quem escreveu Os Lusíadas?",
+          "res1": "Luís Vaz de Camões",
+          "res2": " Carlos Drummond de Andrade",
+          "res3": "Fernando Pessoa",
+          "res4": "Almeida Garrett"
+        }
+      ]
+    },
+    {
+      "id": "2d62",
+      "name": "qwe",
+      "numQuestions": 5,
+      "questions": [
+        {
+          "question": "qwer",
+          "res1": "qwer",
+          "res2": "qwer",
+          "res3": "qwer",
+          "res4": "qwer",
+          "res5": "qwer"
+        },
+        {
+          "question": "qwer",
+          "res1": "qwe",
+          "res2": "qwer",
+          "res3": "qwerq",
+          "res4": "werq",
+          "res5": "qwer"
+        },
+        {
+          "question": "qwe",
+          "res1": "qwer",
+          "res2": "qwerq",
+          "res3": "wer",
+          "res4": "qwer",
+          "res5": "qwer"
+        },
+        {
+          "question": "qwe",
+          "res1": "qwe",
+          "res2": "qwer",
+          "res3": "qwer",
+          "res4": "qwer",
+          "res5": "qwer"
+        },
+        {
+          "question": "qwe",
+          "res1": "qwer",
+          "res2": "qwer",
+          "res3": "qwer",
+          "res4": "qwe",
+          "res5": "qwer"
+        }
+      ]
+    }
+  ]
+}
