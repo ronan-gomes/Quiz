@@ -12,6 +12,8 @@ import { CommonModule } from '@angular/common'
 import { QuizListComponent } from './quiz/quiz-list/quiz-list.component';
 import { QuizFormComponent } from './quiz/quiz-form/quiz-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AlertComponent } from './components/alert/alert.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 
 @NgModule({
@@ -21,7 +23,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     QuizInfoComponent,
     BtnHomeComponent,
     QuizListComponent,
-    QuizFormComponent
+    QuizFormComponent,
+    AlertComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     CommonModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

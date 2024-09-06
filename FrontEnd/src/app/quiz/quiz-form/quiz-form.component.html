@@ -49,7 +49,7 @@
     <input
       type="text"
       class="form-control incorrect-input"
-      placeholder="Insira uma resposta incorreta"
+      placeholder="Insira uma resposta incorreta*"
       formControlName="res2"
     />
     <input
@@ -63,12 +63,6 @@
       class="form-control incorrect-input"
       placeholder="Insira uma resposta incorreta"
       formControlName="res4"
-    />
-    <input
-      type="text"
-      class="form-control incorrect-input"
-      placeholder="Insira uma resposta incorreta"
-      formControlName="res5"
     />
   </div>
   <button type="submit" class="btn btn-dark" [disabled]="form2.invalid" (click)="onSubmitForm2(form2)">Continuar</button>

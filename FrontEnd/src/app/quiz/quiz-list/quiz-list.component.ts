@@ -1,6 +1,6 @@
 import { Router } from '@angular/router';
 import { Quiz } from './../quiz';
-import { QuizService } from '../quiz.service';
+import { QuizService } from '../../services/quiz.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -9,8 +9,11 @@ import { Component } from '@angular/core';
   styleUrl: './quiz-list.component.css',
 })
 export class QuizListComponent {
+
   quizzes!: Quiz[]
+
   constructor(private QuizService: QuizService, private router: Router){}
+
   ngOnInit():void{
     this.QuizService.readQuizzes().subscribe(quizzes =>{
       this.quizzes = quizzes
@@ -20,5 +23,10 @@ export class QuizListComponent {
   }
   openQuizForm(){
     this.router.navigate(['form'])
+  }
+
+  onEdit(id: any){
+    this.router.navigate(['edit', id]);
+
   }
 }

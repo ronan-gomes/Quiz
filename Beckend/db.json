@@ -76,53 +76,6 @@
           "res4": "Almeida Garrett"
         }
       ]
-    },
-    {
-      "id": "2d62",
-      "name": "qwe",
-      "numQuestions": 5,
-      "questions": [
-        {
-          "question": "qwer",
-          "res1": "qwer",
-          "res2": "qwer",
-          "res3": "qwer",
-          "res4": "qwer",
-          "res5": "qwer"
-        },
-        {
-          "question": "qwer",
-          "res1": "qwe",
-          "res2": "qwer",
-          "res3": "qwerq",
-          "res4": "werq",
-          "res5": "qwer"
-        },
-        {
-          "question": "qwe",
-          "res1": "qwer",
-          "res2": "qwerq",
-          "res3": "wer",
-          "res4": "qwer",
-          "res5": "qwer"
-        },
-        {
-          "question": "qwe",
-          "res1": "qwe",
-          "res2": "qwer",
-          "res3": "qwer",
-          "res4": "qwer",
-          "res5": "qwer"
-        },
-        {
-          "question": "qwe",
-          "res1": "qwer",
-          "res2": "qwer",
-          "res3": "qwer",
-          "res4": "qwe",
-          "res5": "qwer"
-        }
-      ]
     }
   ]
 }
