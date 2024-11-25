@@ -76,6 +76,48 @@
           "res4": "Almeida Garrett"
         }
       ]
+    },
+    {
+      "id": "010f",
+      "name": "Aquecimento Global",
+      "numQuestions": 5,
+      "questions": [
+        {
+          "question": "O aquecimento global é um processo caracterizado pelo aumento da temperatura média da Terra. É o resultado do agravamento de qual fenômeno natural na terra? ",
+          "res1": "Efeito estufa",
+          "res2": "Destruir a camada de ozônio",
+          "res3": "Reversão térmica",
+          "res4": "Chuva ácida"
+        },
+        {
+          "question": " Com o tempo, o aquecimento global trará uma série de mudanças para a Terra. Revise as alternativas abaixo e marque as alternativas que não indicam as consequências do aumento acentuado da temperatura da Terra. ",
+          "res1": "Elevação do nível do mar",
+          "res2": "Número crescente de furacões",
+          "res3": "Derretimento da calotas polares",
+          "res4": "Aumento da incidência de terremotos"
+        },
+        {
+          "question": " O Efeito Estufa é um problema? ",
+          "res1": "Sim, um problema grave que devemos dar mais atenção",
+          "res2": "Não, o problema está no aumento da intensidade dele",
+          "res3": "É uma falácia capitalista",
+          "res4": "Nenhuma das anteriores"
+        },
+        {
+          "question": "Qual o processo que reduz o aquecimento global? ",
+          "res1": "Fotossíntese",
+          "res2": "Descongelar a Antártida",
+          "res3": "Queima de resíduos",
+          "res4": "Usar gases CFC"
+        },
+        {
+          "question": " O aquecimento global, foi: ",
+          "res1": "Um evento feito pela humanidade",
+          "res2": "Um acontecimento natural",
+          "res3": null,
+          "res4": null
+        }
+      ]
     }
   ]
 }

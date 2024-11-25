@@ -2,6 +2,14 @@
     gap: 30px;
     width: auto;
 }
+
+.title1{
+  font-family: "Alice","Calibri","sans-serif";
+  font-size:xx-large;
+  align-content: center;
+  font-weight: 600;
+  color: #fff;
+}
 .img-logo{
     padding-left: 100px;
 
@@ -16,7 +24,7 @@
 }
 footer{
     position: absolute;
-    font-size: 0.8rem;
+    font-size: 1rem;
     bottom: 0;
     padding: 0,6rem;
 }
