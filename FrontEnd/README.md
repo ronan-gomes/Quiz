@@ -1,27 +1,64 @@
-# FrontEnd
+# Quiz - Batalha do Saber
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+Este projeto foi desenvolvido para aprimorar meus conhecimentos em **frontend** e **backend**, utilizando as tecnologias mais recentes no desenvolvimento web. A ideia do projeto é criar um quiz interativo com foco em aprendizado, desafiando o usuário em diversas questões.
 
-## Development server
+## Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Frontend**:
+  - **HTML**
+  - **CSS**
+  - **TypeScript**
+  - **Angular**
+  - **Bootstrap**
 
-## Code scaffolding
+- **Backend**:
+  - **Node.js**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Como Executar o Projeto
 
-## Build
+Para rodar o projeto corretamente, é necessário utilizar dois terminais:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Passo 1: Rodar o Frontend
 
-## Running unit tests
+1. No primeiro terminal, acesse o diretório do **frontend**:
+    ```bash
+    cd frontend
+    ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Rode o comando abaixo para iniciar o servidor de desenvolvimento do Angular:
+    ```bash
+    ng serve
+    ```
 
-## Running end-to-end tests
+3. Após isso, abra o navegador e acesse `http://localhost:4200` para visualizar o frontend em execução.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Passo 2: Rodar o Backend
 
-## Further help
+1. No segundo terminal, acesse o diretório do **backend**:
+    ```bash
+    cd backend
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Execute o comando abaixo para iniciar o servidor Node.js:
+    ```bash
+    npm start
+    ```
+
+3. O backend estará acessível no endereço `http://localhost:8080`.
+
+## Funcionalidades
+
+- O **Frontend** é construído utilizando o Angular, com design responsivo e interatividade proporcionada pelo **Bootstrap**.
+- O **Backend** gerencia as questões e os resultados, servindo como API para o frontend.
+
+## Como Contribuir
+
+1. Faça um fork deste repositório.
+2. Crie uma branch com a sua feature ou correção de bug (`git checkout -b minha-feature`).
+3. Commit suas alterações (`git commit -am 'Adiciona nova feature'`).
+4. Faça um push para a sua branch (`git push origin minha-feature`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
