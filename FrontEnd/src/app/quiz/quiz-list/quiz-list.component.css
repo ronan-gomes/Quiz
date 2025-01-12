@@ -18,3 +18,9 @@ td{
 #quizvazio{
   display: none;
 }
+
+.form-control:focus, .form-select:focus{
+  border-color: #ffffff;
+  box-shadow: 0 0 0 0.2rem;
+
+}

@@ -11,12 +11,14 @@ import { Component } from '@angular/core';
 export class QuizListComponent {
 
   quizzes!: Quiz[]
+  filter!: Quiz[]
 
   constructor(private QuizService: QuizService, private router: Router){}
 
   ngOnInit():void{
     this.QuizService.readQuizzes().subscribe(quizzes =>{
       this.quizzes = quizzes
+      this.filter = quizzes
       console.log(quizzes);
     })
 
@@ -25,8 +27,23 @@ export class QuizListComponent {
     this.router.navigate(['form'])
   }
 
+  startQuiz(id: any){
+    this.router.navigate(['quiz', id]);
+  }
+
   onEdit(id: any){
     this.router.navigate(['edit', id]);
 
+  }
+  onDelete(id: any){
+    this.router.navigate(['delete', id]);
+
+  }
+  search(e: Event){
+    const target = e.target as HTMLInputElement;
+    const value = target.value.toLowerCase();
+    this.quizzes = this.filter.filter((quiz)=>{
+      return quiz.name?.toLowerCase().includes(value);
+    });
   }
 }

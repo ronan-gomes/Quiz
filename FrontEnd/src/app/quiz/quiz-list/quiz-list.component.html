@@ -1,5 +1,6 @@
 <div class="container">
   <div class="container-table" *ngIf="quizzes; else spinner">
+    <input type="text" class="form-control" placeholder="Pesquisar quiz por nome" (input)="search($event)">
     <table class="table">
       <thead>
         <tr>
@@ -12,9 +13,9 @@
           <td>{{ quiz.name }}</td>
           <td>
             <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-dark bi bi-play-fill"></button>
+              <button type="button" class="btn btn-dark bi bi-play-fill" (click)="startQuiz(quiz.id)"></button>
               <button type="button" class="btn btn-secondary bi bi-pencil-fill" (click)="onEdit(quiz.id)"></button>
-              <button type="button" class="btn btn-danger bi bi-trash-fill"></button>
+              <button type="button" class="btn btn-danger bi bi-trash-fill" (click)="onDelete(quiz.id)"></button>
             </div>
           </td>
         </tr>

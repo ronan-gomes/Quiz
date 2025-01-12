@@ -1,6 +1,9 @@
 .alert{
   margin: .8rem 0;
 }
+.h5{
+  fontcolor: azure;
+}
 
 .form-label{
   color: #c9c9c9;
@@ -17,13 +20,13 @@ form{
 }
 
 .correct-input::placeholder{
-  background-color: #a6d5b66e;
-  color: #055105b4;
+  background-color: #0ea60eb4;
+  color: #cdf2d86e;
 
 }
 
 .incorrect-input::placeholder{
-  background-color: #d5a6a66e;
-  color: #510508b9;
+  background-color: #510508b9;
+  color: #d5a6a66e;
 
 }
