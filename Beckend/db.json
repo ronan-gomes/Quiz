@@ -2,120 +2,120 @@
   "quizzes": [
     {
       "id": "1",
-      "name": "Conhecimentos gerais",
+      "name": "Água no Processo Evolutivo",
       "numQuestions": 10,
       "questions": [
         {
-          "question": "De quem é a famosa frase “Penso, logo existo”?",
-          "res1": "Descartes",
-          "res2": "Galileu Galilei",
-          "res3": "Platão",
-          "res4": "Sócrates"
+          "question": "Qual é uma maneira eficiente de economizar água ao regar plantas?",
+          "res1": "Regar as plantas no início da manhã ou no fim da tarde",
+          "res2": "Usar mangueira em horários de sol forte",
+          "res3": "Regar com água potável durante o meio-dia",
+          "res4": "Lavar as folhas com mangueira todos os dias"
         },
         {
-          "question": "Quais o menor e o maior país do mundo?",
-          "res1": "Vaticano e Rússia",
-          "res2": "Nauru e China",
-          "res3": "Mônaco e Canadá",
-          "res4": "Malta e Estados Unidos"
+          "question": "Por que é importante proteger as nascentes de água?",
+          "res1": "Porque são fontes que abastecem rios e reservatórios",
+          "res2": "Porque são locais próprios para despejo de lixo",
+          "res3": "Porque são boas para prática de esportes",
+          "res4": "Porque servem apenas para turismo"
         },
         {
-          "question": "Qual o nome do presidente do Brasil que ficou conhecido como Jango?",
-          "res1": "João Goulart",
-          "res2": "Jânio Quadros",
-          "res3": "Getúlio Vargas",
-          "res4": "Jacinto Anjos"
+          "question": "Como o uso de torneiras com arejadores ajuda na economia de água?",
+          "res1": "Misturam ar à água, reduzindo o consumo sem perder eficiência",
+          "res2": "Aumentam a pressão da água",
+          "res3": "Deixam a água mais quente",
+          "res4": "Facilitam o desperdício"
         },
         {
-          "question": "Quais as duas datas que são comemoradas em novembro?",
-          "res1": " Proclamação da República e Dia Nacional da Consciência Negra",
-          "res2": " Independência do Brasil e Dia da Bandeira",
-          "res3": "Dia de Finados e Dia Nacional do Livro",
-          "res4": " Black Friday e Dia da Árvore"
+          "question": "O que acontece quando há poluição dos rios?",
+          "res1": "Compromete a qualidade da água e afeta a vida aquática",
+          "res2": "Melhora a fertilidade da água",
+          "res3": "Aumenta a quantidade de peixes",
+          "res4": "Deixa a água mais potável"
         },
         {
-          "question": " Em que ordem surgiram os modelos atômicos?",
-          "res1": "Dalton, Thomson, Rutherford, Rutherford-Bohr",
-          "res2": "Dalton, Thomson, Rutherford-Bohr, Rutherford",
-          "res3": "Thomson, Dalton, Rutherford, Rutherford-Bohr",
-          "res4": "Rutherford-Bohr, Rutherford, Thomson, Dalton"
+          "question": "Por que devemos evitar lavar calçadas com mangueira?",
+          "res1": "Porque isso desperdiça muita água potável",
+          "res2": "Porque suja a rua",
+          "res3": "Porque a água evapora rapidamente",
+          "res4": "Porque deixa a mangueira danificada"
         },
         {
-          "question": "Qual a montanha mais alta do Brasil?",
-          "res1": "Pico da Neblina",
-          "res2": "Pico da Bandeira",
-          "res3": " Pico Maior de Friburgo",
-          "res4": "Monte Roraima"
+          "question": "Qual atitude contribui para preservar rios e lagos?",
+          "res1": "Não jogar lixo e resíduos nas ruas e esgotos",
+          "res2": "Despejar óleo de cozinha no ralo",
+          "res3": "Lavar veículos nas margens dos rios",
+          "res4": "Queimar lixo próximo às nascentes"
         },
         {
-          "question": "Que país tem o formato de uma bota?",
-          "res1": "Itália",
-          "res2": "Butão",
-          "res3": "Portugal",
-          "res4": "México"
+          "question": "O que significa captar água da chuva?",
+          "res1": "Armazenar água da chuva para usos não potáveis",
+          "res2": "Usar a chuva para gerar energia elétrica",
+          "res3": "Deixar a chuva lavar telhados sem controle",
+          "res4": "Beber diretamente da calha"
         },
         {
-          "question": "Quantos ossos temos no nosso corpo?",
-          "res1": "206",
-          "res2": "126",
-          "res3": "200",
-          "res4": ""
+          "question": "Como pequenas atitudes diárias ajudam na preservação da água?",
+          "res1": "Reduzindo o desperdício e evitando a poluição",
+          "res2": "Aumentando o consumo sempre que possível",
+          "res3": "Jogando lixo orgânico nos rios",
+          "res4": "Utilizando mangueiras para todas as atividades"
         },
         {
-          "question": "O que é maior: gigabyte ou megabyte?",
-          "res1": "gigabyte ",
-          "res2": "megabyte",
-          "res3": null,
-          "res4": null
+          "question": "Por que é importante tratar o esgoto antes de descartá-lo na natureza?",
+          "res1": "Para evitar poluição e proteger a saúde pública e ambiental",
+          "res2": "Para deixar o esgoto mais cheiroso",
+          "res3": "Porque o esgoto tratado evapora mais rápido",
+          "res4": "Porque é mais barato jogar esgoto sem tratar"
         },
         {
-          "question": "Quem escreveu Os Lusíadas?",
-          "res1": "Luís Vaz de Camões",
-          "res2": " Carlos Drummond de Andrade",
-          "res3": "Fernando Pessoa",
-          "res4": "Almeida Garrett"
+          "question": "Qual das ações abaixo contribui diretamente para a preservação dos recursos hídricos?",
+          "res1": "Preservar a vegetação próxima a rios e lagos",
+          "res2": "Desmatar as margens dos rios para construção",
+          "res3": "Canalizar rios para áreas urbanas sem controle",
+          "res4": "Construir aterros sanitários em áreas de mananciais"
         }
       ]
     },
     {
-      "id": "2",
-      "name": "Aquecimento Global",
+      "id": "b5d6",
+      "name": "Preservacao e Reutilização de Água",
       "numQuestions": 5,
       "questions": [
         {
-          "question": "O aquecimento global é um processo caracterizado pelo aumento da temperatura média da Terra. É o resultado do agravamento de qual fenômeno natural na terra? ",
-          "res1": "Efeito estufa",
-          "res2": "Destruir a camada de ozônio",
-          "res3": "Reversão térmica",
-          "res4": "Chuva ácida"
+          "question": "Qual é a principal forma de evitar o desperdício de água em residências?",
+          "res1": "Consertar vazamentos rapidamente",
+          "res2": "Lavar a calçada todos os dias com mangueira",
+          "res3": "Deixar a torneira aberta enquanto escova os dentes",
+          "res4": "Usar a máquina de lavar com pouca roupa"
         },
         {
-          "question": " Com o tempo, o aquecimento global trará uma série de mudanças para a Terra. Revise as alternativas abaixo e marque as alternativas que não indicam as consequências do aumento acentuado da temperatura da Terra. ",
-          "res1": "Elevação do nível do mar",
-          "res2": "Número crescente de furacões",
-          "res3": "Derretimento da calotas polares",
-          "res4": "Aumento da incidência de terremotos"
+          "question": "Por que é importante preservar a água?",
+          "res1": "Porque ela é um recurso finito e essencial para a vida",
+          "res2": "Porque ela não tem fim",
+          "res3": "Porque é obrigação da empresa de saneamento",
+          "res4": "Porque deixa as contas mais caras"
         },
         {
-          "question": " O Efeito Estufa é um problema? ",
-          "res1": "Sim, um problema grave que devemos dar mais atenção",
-          "res2": "Não, o problema está no aumento da intensidade dele",
-          "res3": "É uma falácia capitalista",
-          "res4": "Nenhuma das anteriores"
+          "question": "Ao lavar o carro, qual é a maneira mais sustentável?",
+          "res1": "Usar balde e pano",
+          "res2": "Usar mangueira com alta pressão",
+          "res3": "Lavar todos os dias",
+          "res4": "Jogar sabão diretamente na rua"
         },
         {
-          "question": "Qual o processo que reduz o aquecimento global? ",
-          "res1": "Fotossíntese",
-          "res2": "Descongelar a Antártida",
-          "res3": "Queima de resíduos",
-          "res4": "Usar gases CFC"
+          "question": "Qual das atitudes abaixo ajuda na preservação da água?",
+          "res1": "Reutilizar a água da chuva",
+          "res2": "Jogar óleo de cozinha na pia",
+          "res3": "Deixar torneiras pingando",
+          "res4": "Usar produtos químicos no esgoto"
         },
         {
-          "question": " O aquecimento global, foi: ",
-          "res1": "Um evento feito pela humanidade",
-          "res2": "Um acontecimento natural",
-          "res3": null,
-          "res4": null
+          "question": "O que podemos fazer para evitar a contaminação da água?",
+          "res1": "Não descartar produtos químicos no esgoto",
+          "res2": "Jogar lixo nos rios",
+          "res3": "Usar rios como depósito de entulho",
+          "res4": "Jogar restos de comida na pia"
         }
       ]
     }
