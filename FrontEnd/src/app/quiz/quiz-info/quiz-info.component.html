@@ -1,5 +1,7 @@
 <div class="container">
   <ul class="list-group list-group-flush">
-    <li class="list-group-item" *ngFor="let info of infos">{{ info }}</li>
+    @for (info of infos; track info) {
+      <li class="list-group-item">{{ info }}</li>
+    }
   </ul>
 </div>

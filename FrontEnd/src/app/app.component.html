@@ -1,5 +1,7 @@
 <div class="tela">
-  <app-btn-home *ngIf="router.url !== '/'" class="home-icon"></app-btn-home>
+  @if (router.url !== '/') {
+    <app-btn-home class="home-icon"></app-btn-home>
+  }
   <div class="container">
     <router-outlet></router-outlet>
   </div>
