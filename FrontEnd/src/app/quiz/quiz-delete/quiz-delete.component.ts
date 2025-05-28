@@ -5,9 +5,10 @@ import { QuizService } from './../../services/quiz.service';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-quiz-delete',
-  templateUrl: './quiz-delete.component.html',
-  styleUrl: './quiz-delete.component.css'
+    selector: 'app-quiz-delete',
+    templateUrl: './quiz-delete.component.html',
+    styleUrl: './quiz-delete.component.css',
+    standalone: false
 })
 export class QuizDeleteComponent {
 

@@ -4,9 +4,10 @@ import { Quiz } from '../quiz';
 import { QuizService } from '../../services/quiz.service';
 
 @Component({
-  selector: 'app-quiz-screen',
-  templateUrl: './quiz-screen.component.html',
-  styleUrl: './quiz-screen.component.css'
+    selector: 'app-quiz-screen',
+    templateUrl: './quiz-screen.component.html',
+    styleUrl: './quiz-screen.component.css',
+    standalone: false
 })
 export class QuizScreenComponent implements OnInit{
   quiz!: Quiz

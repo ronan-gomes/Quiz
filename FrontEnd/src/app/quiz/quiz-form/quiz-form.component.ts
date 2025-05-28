@@ -7,9 +7,10 @@ import { QuizService } from '../../services/quiz.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-quiz-form',
-  templateUrl: './quiz-form.component.html',
-  styleUrl: './quiz-form.component.css',
+    selector: 'app-quiz-form',
+    templateUrl: './quiz-form.component.html',
+    styleUrl: './quiz-form.component.css',
+    standalone: false
 })
 export class QuizFormComponent implements OnInit {
   form1!: FormGroup;

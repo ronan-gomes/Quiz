@@ -4,9 +4,10 @@ import { QuizService } from '../../services/quiz.service';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-quiz-list',
-  templateUrl: './quiz-list.component.html',
-  styleUrl: './quiz-list.component.css',
+    selector: 'app-quiz-list',
+    templateUrl: './quiz-list.component.html',
+    styleUrl: './quiz-list.component.css',
+    standalone: false
 })
 export class QuizListComponent {
 

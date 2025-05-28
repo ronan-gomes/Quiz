@@ -9,7 +9,7 @@ import { Quiz } from '../quiz/quiz';
   providedIn: 'root',
 })
 export class QuizService {
-  url: string = 'https://water-quest-backend.vercel.app/db.json/quizzes';
+  url: string = 'http://localhost:8080/quizzes';
   constructor(private http: HttpClient, private alertService: AlertService) {}
 
   readQuizzes(): Observable<Quiz[]> {
