@@ -8,7 +8,7 @@ import { QuizFormComponent } from './quiz/quiz-form/quiz-form.component';
 import { QuizDeleteComponent } from './quiz/quiz-delete/quiz-delete.component';
 
 const routes: Routes = [
-  {path: "",component: HomeComponent},
+  {path: "", component:HomeComponent},
   {path: "info", component:QuizInfoComponent},
   {path: "list", component:QuizListComponent},
   {path: "form", component:QuizFormComponent},
