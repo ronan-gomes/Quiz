@@ -6,10 +6,15 @@
   "scripts": {
     "start": "node api/index.js"
   },
-  "keywords": ["json-server", "vercel", "api", "mock"],
+  "keywords": [
+    "json-server",
+    "vercel",
+    "api",
+    "mock"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.3"
   }
-} 
+}
