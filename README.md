@@ -1,4 +1,4 @@
-# Quiz - Batalha do Saber
+# Quiz - Water's Quest
 
 Este projeto foi desenvolvido para aprimorar meus conhecimentos em **frontend** e **backend**, utilizando as tecnologias mais recentes no desenvolvimento web. A ideia do projeto é criar um quiz interativo com foco em aprendizado, desafiando o usuário em diversas questões.
 
